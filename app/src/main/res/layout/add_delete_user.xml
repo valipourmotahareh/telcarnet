@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/backload">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layoutDirection="ltr"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/red"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="ماشین:"
+                    android:textColor="@color/colorDefaultTxt"
+                    android:textSize="20sp" />
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="right">
+
+                <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="50dp"
+                        android:text="شماره تلفن کاربر1:"
+                        android:textColor="@color/white" />
+
+                <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="210dp"
+                        android:layout_height="35dp"
+                        android:layout_alignTop="@+id/textView"
+                        android:layout_toStartOf="@+id/textView"
+                        android:layout_toLeftOf="@+id/textView"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape"
+                        android:drawableRight="@drawable/phonebook"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:textColor="@color/black"
+                        android:textDirection="ltr" />
+
+                <Button
+                        android:id="@+id/buttonadd"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/editText"
+                        android:layout_alignEnd="@+id/editText"
+                        android:layout_alignRight="@+id/editText"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:text="@string/add"
+                        android:textColor="@color/white" />
+
+                <Button
+                        android:id="@+id/buttondel"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/editText"
+                        android:layout_alignStart="@+id/editText"
+                        android:layout_alignLeft="@+id/buttonadd"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/roundbuttonred"
+                        android:text="@string/delete"
+                        android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="right">
+
+                <TextView
+                        android:id="@+id/textViewuser2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="شماره تلفن کاربر2:"
+                        android:textColor="@color/white" />
+
+                <EditText
+                        android:id="@+id/editTextuser2"
+                        android:layout_width="210dp"
+                        android:layout_height="35dp"
+                        android:layout_alignTop="@+id/textViewuser2"
+                        android:layout_toStartOf="@+id/textViewuser2"
+                        android:layout_toLeftOf="@+id/textViewuser2"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape"
+                        android:drawableRight="@drawable/phonebook"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:textColor="@color/black"
+                        android:textDirection="ltr" />
+
+                <Button
+                        android:id="@+id/buttonadduser2"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/editTextuser2"
+                        android:layout_alignEnd="@+id/editTextuser2"
+                        android:layout_alignRight="@+id/editTextuser2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:text="@string/add"
+                        android:textColor="@color/white" />
+
+                <Button
+                        android:id="@+id/buttondeluser2"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/editTextuser2"
+                        android:layout_alignStart="@+id/editTextuser2"
+                        android:layout_alignLeft="@+id/buttonadduser2"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/roundbuttonred"
+                        android:text="@string/delete"
+                        android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="right">
+
+                <TextView
+                        android:id="@+id/textViewuser3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="شماره تلفن کاربر3:"
+                        android:textColor="@color/white" />
+
+                <EditText
+                        android:id="@+id/editTextuser3"
+                        android:layout_width="210dp"
+                        android:layout_height="35dp"
+                        android:layout_alignTop="@+id/textViewuser3"
+                        android:layout_toStartOf="@+id/textViewuser3"
+                        android:layout_toLeftOf="@+id/textViewuser3"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape"
+                        android:drawableRight="@drawable/phonebook"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:textColor="@color/black"
+                        android:textDirection="ltr" />
+
+                <Button
+                        android:id="@+id/buttonadduser3"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/editTextuser3"
+                        android:layout_alignEnd="@+id/editTextuser3"
+                        android:layout_alignRight="@+id/editTextuser3"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:text="@string/add"
+                        android:textColor="@color/white" />
+
+                <Button
+                        android:id="@+id/buttondeluser3"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/editTextuser3"
+                        android:layout_alignStart="@+id/editTextuser3"
+                        android:layout_alignLeft="@+id/buttonadduser3"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/roundbuttonred"
+                        android:text="@string/delete"
+                        android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+
+                <TextView
+                        android:id="@+id/textViewuser4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="شماره تلفن کاربر 4:"
+                        android:textColor="@color/white" />
+
+                <EditText
+                        android:id="@+id/editTextuser4"
+                        android:layout_width="210dp"
+                        android:layout_height="35dp"
+                        android:layout_alignTop="@+id/textViewuser4"
+                        android:layout_toStartOf="@+id/textViewuser4"
+                        android:layout_toLeftOf="@+id/textViewuser4"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape"
+                        android:drawableRight="@drawable/phonebook"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:textColor="@color/black"
+                        android:textDirection="ltr" />
+
+                <Button
+                        android:id="@+id/buttonadduser4"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/editTextuser4"
+                        android:layout_alignEnd="@+id/editTextuser4"
+                        android:layout_alignRight="@+id/editTextuser4"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:text="@string/add"
+                        android:textColor="@color/white" />
+
+                <Button
+                        android:id="@+id/buttondeluser4"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/editTextuser4"
+                        android:layout_alignStart="@+id/editTextuser4"
+                        android:layout_alignLeft="@+id/buttonadduser4"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/roundbuttonred"
+                        android:text="@string/delete"
+                        android:textColor="@color/white" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

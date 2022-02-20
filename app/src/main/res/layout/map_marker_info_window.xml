@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/car_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="نام خودرو"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/car_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تاریخ"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tvLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="موقعیت جغرافیایی:"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="سرعت:"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/status_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="وضعیت:"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/status_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="حالت استارت:"
+        android:textColor="#000" />
+</LinearLayout>

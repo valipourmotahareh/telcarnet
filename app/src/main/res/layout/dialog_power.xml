@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_back_bg"
+        android:gravity="right">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:id="@+id/linear_caron"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+        >
+
+            <ImageView
+                    android:id="@+id/img_caron"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/trueicon"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="@string/txt_caron"
+                    android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:padding="5dp"></View>
+
+        <LinearLayout
+                android:id="@+id/linear_caroff"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+        >
+
+            <ImageView
+                    android:id="@+id/img_caroff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/trueicon"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="@string/txt_caroff"
+                    android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <View
+                android:id="@+id/line2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:padding="5dp"/>
+
+        <LinearLayout
+                android:id="@+id/linear_sof"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+        >
+
+            <ImageView
+                    android:id="@+id/img_sof"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/trueicon"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="@string/txt_sof"
+                    android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:padding="5dp"></View>
+
+        <LinearLayout
+                android:id="@+id/linear_son"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+        >
+
+            <ImageView
+                    android:id="@+id/img_son"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/trueicon"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="@string/txt_son"
+                    android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

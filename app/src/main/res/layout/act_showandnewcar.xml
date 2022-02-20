@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backload">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="دستگاه ها"
+                android:textSize="30sp"
+                android:textColor="@color/colorDefaultTxt"
+                android:background="@color/red"
+                android:gravity="center"
+                android:id="@+id/title"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_car"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/title"></androidx.recyclerview.widget.RecyclerView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="16dp"
+                app:srcCompat="@drawable/iconnewcar"
+                android:padding="10dp"
+        />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

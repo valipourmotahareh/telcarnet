@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/backload">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+            <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txt_button_warning"/>
+
+            <com.davidmiguel.multistateswitch.MultiStateSwitch
+                    android:id="@+id/customizedSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:multistateswitch_disabled_state_enabled="true"
+                    app:multistateswitch_disabled_state_index="1"
+                    app:multistateswitch_selected_state_index="1"
+                    android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:padding="10dp">
+
+            <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txt_opendoor"/>
+
+            <Switch
+                    android:id="@+id/warning_open_door"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:padding="10dp">
+
+            <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txt_warning_start"/>
+
+            <Switch
+                    android:id="@+id/warning_start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:padding="10dp">
+
+            <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txt_warning_Stealing_battery"/>
+
+            <Switch
+                    android:id="@+id/warning_Stealing_battery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:padding="10dp">
+
+            <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txt_warning_Unauthorized_speed"/>
+
+            <Switch
+                    android:id="@+id/warning_Unauthorized_speed"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:padding="10dp">
+
+            <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txt_warning_Towing_shift_warning"/>
+
+            <Switch
+                    android:id="@+id/warning_Towing_shift_warning"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"/>
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+
+        <LinearLayout
+                android:id="@+id/linear_warning_Impact_Sensor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:padding="10dp">
+
+            <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txt_warning_Impact_Sensor"/>
+
+            <Switch
+                    android:id="@+id/warning_Impact_Sensor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"/>
+        </LinearLayout>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+
+        <LinearLayout
+                android:id="@+id/linear_warning_move_Sensor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:padding="10dp">
+
+            <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txt_warning_move_Sensor"/>
+
+            <Switch
+                    android:id="@+id/warning_move_Sensor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <com.rey.material.widget.Button
+                    android:id="@+id/sendwarningsetting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_orange"
+                    android:layout_margin="20dp"
+                    android:text="@string/txt_button_send"
+                    style="@style/TextViewStyle"
+                    android:visibility="gone"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colortxtentt"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_top_bg"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+        <TextView
+                style="@style/defualtTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/dialog_rename_title"
+                android:textColor="@color/color_white"
+                android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+        <EditText
+                android:id="@+id/car_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_bg" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dialog_rename_txt_namecar"
+                android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+        <EditText
+                android:id="@+id/code_car"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_bg" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dialog_rename_txt_codecar"
+                android:textColor="@color/black" />
+    </LinearLayout>
+
+    <EditText
+            android:id="@+id/edt_phonenumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_bg"
+            android:drawableRight="@drawable/phonebook"
+            android:hint="شماره تلفن"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_gray"
+            android:textDirection="ltr"
+            app:layout_constraintBottom_toBottomOf="@+id/edt_namecar" />
+
+    <Spinner
+            android:id="@+id/spinnermodel"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/edt_phonenumber">
+
+    </Spinner>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+        <com.rey.material.widget.Button
+                android:id="@+id/dialog_set_gps_btn_no"
+                style="@style/RaiseWaveColorButtonRippleStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorNoBtn"
+                android:text="انصراف"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+
+        <com.rey.material.widget.Button
+                android:id="@+id/dialog_set_gps_btn_yes"
+                style="@style/RaiseWaveColorButtonRippleStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorYesBtn"
+                android:text="ثبت"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

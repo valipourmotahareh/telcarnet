@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:background="@color/color_orange"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="شارز سیم کارت"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="#ff6a0b67"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:textColor="#ff6a0b67"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="#ff6a0b67"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:hint="شماره سریال"
+            android:maxLength="16"
+            android:textColor="#ff6a0b67"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#"
+            android:textColor="#ff6a0b67"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/send_selector" />
+    </LinearLayout>
+</LinearLayout>

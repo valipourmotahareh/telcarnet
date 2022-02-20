@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_bg"
+        android:gravity="right">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_top_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+                style="@style/defualtTextViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/dialog_delete_title"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/delete_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="@string/dialog_delete_chx1"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/dialog_delete_chx_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/delete_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="@string/dialog_delete_chx2"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/dialog_delete_chx_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <com.rey.material.widget.Button
+            android:id="@+id/dialog_set_gps_btn_no"
+            style="@style/RaiseWaveColorButtonRippleStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorNoBtn"
+            android:text="انصراف"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp"/>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/dialog_set_gps_btn_yes"
+            style="@style/RaiseWaveColorButtonRippleStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorYesBtn"
+            android:text="ثبت"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>

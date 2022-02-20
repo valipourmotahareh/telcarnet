@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/clearinbox"
+            android:title="پاک کردن پیام ها">
+    </item>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backload">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="دستگاه ها"
+                android:textSize="30sp"
+                android:textColor="@color/colorDefaultTxt"
+                android:background="@color/red"
+                android:gravity="center"
+                android:id="@+id/title"
+                android:padding="10dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_car"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

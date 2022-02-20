@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_orange"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="تنطیمات حداکثر سرعت"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="میزان سرعت:"
+            android:textColor="#ffd04daf"
+            android:textSize="20dp" />
+
+    <EditText
+            android:id="@+id/editTextspeed"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:textColor="#ff6a0b67" />
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/buttonspeed"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@color/color_orange"
+                android:text="@string/setting_speed"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                />
+        <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@color/red_color"
+                android:text="@string/delete_speed"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                />
+    </LinearLayout>
+
+</LinearLayout>

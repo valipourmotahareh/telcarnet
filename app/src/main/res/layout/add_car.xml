@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colortxtentt"
+        android:padding="10dp">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+        <EditText
+                android:id="@+id/edt_namecar"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="نام ماشین"
+                android:textColorHint="@color/color_gray"
+                android:gravity="center"/>
+        <EditText
+                android:id="@+id/edt_phonenumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_bg"
+                android:drawableRight="@drawable/phonebook"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textDirection="ltr"
+                android:inputType="number"
+                android:hint="شماره تلفن"
+                android:textColorHint="@color/color_gray"
+                app:layout_constraintBottom_toBottomOf="@+id/edt_namecar"
+                android:layout_marginTop="10dp"
+        />
+
+        <Spinner
+                android:id="@+id/spinnermodel"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/edt_phonenumber"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+        </Spinner>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                app:layout_constraintBottom_toBottomOf="@+id/spinnermodel"
+                android:layout_marginTop="10dp"
+        >
+            <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorYesBtn"
+                    android:text="تایید"
+                    android:textColor="@color/white"/>
+            <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorNoBtn"
+                    android:text="انصراف"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/white"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

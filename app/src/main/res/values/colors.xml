@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ffff0000</color>
+    <color name="red_color">#ffa00000</color>
+    <color name="color_3">#ffffe7ac</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimaryDark">#9f3041</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="login_subback">#2f4549</color>
+    <!--<color name="black">#080808</color>-->
+    <color name="material_drawer_primary">#ce0c14</color>
+    <color name="material_drawer_primary_dark">#9f3041</color>
+    <color name="material_drawer_accent">#9f3041</color>
+    <color name="colorDefaultBtns">#9f3041</color>
+    <color name="color_white">#FFFF</color>
+    <color name="color_orange">#ed960a</color>
+    <color name="colorDefaultTxt">#000000</color>
+    <color name="colorNoBtn">#f26d62</color>
+    <color name="colorYesBtn">#40bd43</color>
+    <color name="colortxtentt">#58595b</color>
+    <color name="color_gray">#7b7979</color>
+    <color name="color_gray_back">#ADABAB</color>
+    <color name="main_icon_text">#3d3d3d</color>
+    <color name="color_green">#2e7315</color>
+    <color name="button_dialog">#000000</color>
+    <color name="colordialog">#a04b4e</color>
+    <color name="back_name_info">#14c0ef</color>
+    <color name="colorReminderFill">#9600574b</color>
+    <color name="txt_active">#98753b</color>
+</resources>

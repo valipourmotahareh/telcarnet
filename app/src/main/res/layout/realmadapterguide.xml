@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layoutDirection="rtl">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/model"
+            android:text="مدل:"
+            android:background="@color/color_orange"
+            android:textColor="@color/colorDefaultTxt"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="توضیح:"
+            android:textColor="@color/colorDefaultTxt"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:gravity="center"/>
+   </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

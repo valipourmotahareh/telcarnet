@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:local="http://schemas.android.com/tools"
+        android:background="@drawable/infowindow_bg"
+        android:alpha="0.2"
+        android:orientation="vertical"
+        local:cardCornerRadius="5dp"
+        android:padding="10dp"
+        local:elevation="1dp">
+    <TextView
+        android:id="@+id/car_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="نام خودرو"
+        android:textColor="@color/white"
+       />
+        <TextView
+            android:id="@+id/car_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="زمان:"
+            android:textColor="@color/white"
+            android:gravity="right"
+           />
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="سرعت"
+        android:textColor="@color/white"
+        android:gravity="right"/>
+
+</LinearLayout>

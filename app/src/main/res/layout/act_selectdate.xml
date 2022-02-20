@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:background="@drawable/border_bg"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorDefaultBtns"
+            android:gravity="center"
+            android:text="@string/act_selectdate_titlereport"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    <LinearLayout
+            android:id="@+id/linear_select_date_time"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@color/color_gray_back"
+            android:layout_margin="10dp"
+            >
+
+        <TextView
+                android:id="@+id/txt_select_date"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="start"
+                android:text="@string/txt_today"
+                android:textColor="@color/colorDefaultTxt"
+                android:textSize="@dimen/text_size_body"
+                android:padding="10dp"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:background="@color/color_white"
+            android:gravity="start"
+            android:visibility="gone">
+
+        <ImageView
+                android:id="@+id/today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/informationicon_select" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/act_selectdate_today"
+                android:textColor="@color/color_orange" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:background="@color/color_white"
+            android:gravity="start"
+            android:visibility="gone">
+
+        <ImageView
+                android:id="@+id/yesterday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/desc_informationicon"
+                android:src="@drawable/informationicon" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:text="@string/act_selectdate_yesterday"
+                android:textColor="@color/color_orange" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:background="@color/color_white"
+            android:gravity="right"
+            android:visibility="gone">
+
+        <ImageView
+                android:id="@+id/lastweek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/informationicon" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:text="@string/act_selectdate_prevweek"
+                android:textColor="@color/color_orange" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:background="@color/color_white"
+            android:gravity="right"
+            android:visibility="gone">
+
+        <ImageView
+                android:id="@+id/lastmonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/informationicon" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:text="@string/act_selectdate_prevmonth"
+                android:textColor="@color/color_orange" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@color/color_white"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+        <LinearLayout
+                android:id="@+id/start_date"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:background="@color/color_gray_back">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_timestart"
+                    android:textColor="@color/colorDefaultTxt"/>
+
+            <TextView
+                    android:id="@+id/time_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp" />
+
+            <TextView
+                    android:id="@+id/date_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/end_date"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:background="@color/color_gray_back">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_timeend"
+                    android:textColor="@color/colorDefaultTxt"/>
+
+            <TextView
+                    android:id="@+id/time_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp" />
+
+            <TextView
+                    android:id="@+id/date_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+            <ImageView
+                    android:id="@+id/selectdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/informationicon" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/act_selectdate_selectdate"
+                    android:textColor="@color/color_orange" />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+            <com.rey.material.widget.Button
+                    style="@style/RaiseWaveColorButtonRippleStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_date"
+                    android:elevation="14dp"
+                    android:text="از تاریخ"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    />
+
+            <com.rey.material.widget.Button
+                    style="@style/RaiseWaveColorButtonRippleStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_date"
+                    android:elevation="14dp"
+                    android:text="تا تاریخ"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_orange" />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:gravity="center">
+
+        <Button
+                android:id="@+id/getdata"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/color_green"
+                android:text="@string/act_selectdate_button"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

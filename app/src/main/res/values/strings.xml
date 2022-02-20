@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eegeo_api_key">a6fa932855322480562302eeff7a5071</string>
+    <string name="toast_msg_get_data">درحال دریافت اطلاعات</string>
+    <string name="app_name">  تلکارنت </string>
+    <string name="lbl_logintitle">فرم ورودی کاربر</string>
+    <string name="chk_remember">بخاطر بسپار</string>
+    <string name="login_username">نام کاربری</string>
+    <string name="login_password">رمز ورود</string>
+    <string name="activity_login_btn_login">ورود</string>
+    <string name="activity_restart_again">راه اندازی مجدد</string>
+    <string name="toast_msg_check_data">درحال بررسی اطلاعات</string>
+    <string name="error_fail_server">خطا در ارتباط با سرور!لطفا اینترنت رو چک کنید!</string>
+    <string name="error_login_state">دستگاه مورد نظر در سامانه ثبت نمی باشد</string>
+    <string name="act_selectdate_titlereport">بازه گزارش</string>
+    <string name="act_selectdate_today">امروز</string>
+    <string name="act_selectdate_yesterday">دیروز</string>
+    <string name="act_selectdate_prevweek">هفته گذشته</string>
+    <string name="act_selectdate_prevmonth">ماه گذشته</string>
+    <string name="act_selectdate_selectdate">بازه انتخابی</string>
+    <string name="act_selectdate_button">نمایش</string>
+    <string name="dialog_delete_title">حذف خودرو</string>
+    <string name="dialog_delete_chx1">فقط مسیر خوردو پاک شود.</string>
+    <string name="dialog_delete_chx2">کل اطلاعات خودرو پاک شود.</string>
+    <string name="dialog_rename_title">مدیریت خودرو</string>
+    <string name="dialog_rename_txt_namecar">عنوان/مدل خودرو</string>
+    <string name="dialog_rename_txt_codecar">کدخودرو</string>
+    <string name="main_position">موقعیت فعلی</string>
+    <string name="Tracking_panel">پنل ردیابی</string>
+    <string name="txt_telkarnet">تلکارنت</string>
+    <string name="txt_Listening">شنود</string>
+    <string name="txt_connect_type">نوع ارتباط</string>
+    <string name="txt_setting">تنظیمات</string>
+    <string name="txt_connect">ارتباط با دستگاه</string>
+    <string name="name_logo">telkarnet</string>
+    <string name="txt_namecar">نام خودرو</string>
+    <string name="txt_sim_card1">سیم کارت 1</string>
+    <string name="txt_sim_card2">سیم کارت 2</string>
+    <string name="txt_phone">شماره سیم کارت دستگاه</string>
+    <string name="txt_password">پسورد</string>
+
+    <string name="txt_contact">ثبت نام</string>
+    <string name="txt_entt">لطفا مدل دستگاه خود را انتخاب فرمایید</string>
+    <string name="txt_burglar_alarm">ردیاب-دزدگیر</string>
+    <string name="txt_burglar_alarm_number">TCN_V300</string>
+    <string name="txt_tracket">ردیاب</string>
+    <string name="txt_tracket_number">TCN_V200</string>
+    <string name="toast_empty_simCard1">شماره سیم کارت را وارد کنید </string>
+    <string name="toast_length_simCard1">شماره سیم کارت باید 11 رقم باشد </string>
+    <string name="toast_empty_password">پسورد حورد را وارد کنید </string>
+    <string name="toast_count_password">پسورد باید چهار رقم باشد</string>
+    <string name="display_dialog_wail">چند لحظه منتظر بمانید تا نرم افزار فعال شود!</string>
+    <string name="display_dialog_wail_location">چند لحظه منتظر بمانید!</string>
+
+    <string name="txt_wait_sms_validation_top">لطفا تا دریافت پیامک از طرف دستگاه منتظر بمانید....</string>
+    <string name="txt_wait_sms_validation_countdown"> ثانیه</string>
+    <string name="txt_wait_sms_validation_center">در صورت عدم دریافت پیامک از طرف دستگاه گزینه های زیر را انتخاب کنید.</string>
+    <string name="btn_wait_sms_validation_continue">ادامه</string>
+    <string name="btn_wait_sms_validation_rerequest">درخواست مجدد پیامک</string>
+    <string name="btn_wait_sms_validation_back_first_setting">بازگشت به تنظیمات اولیه</string>
+
+    <string name="txt_user">پسورد و کد کاربری</string>
+
+    <string name="map_operation">عملیات</string>
+    <string name="map_Warning">اعلام ها</string>
+    <string name="map_device">دستگاه</string>
+    <string name="popup_txt1">مرور مسیر</string>
+    <string name="popup_txt2">فهرست محدوده</string>
+    <string name="popup_txt3">افزودن محدوده</string>
+    <string name="popup_sms">پیامک</string>
+    <string name="popup_internet">اینترنت</string>
+    <string name="popup_automatic">اتومات</string>
+    <string name="txt_agent">نمایندگی ها</string>
+    <string name="txt_contactus">ارتباط با ما</string>
+    <string name="txt_news">اخبار جدید</string>
+    <string name="txt_guide">راهنما</string>
+    <string name="add_delete_user">افزودن/حذف کاربر</string>
+    <string name="define_new_car">افزودن و حذف خودرو</string>
+    <string name="set_max_speed">تنظیمات حداکثر سرعت</string>
+    <string name="password_login">پسورد</string>
+    <string name="setting_error">تنظیمات اخطار</string>
+    <string name="change_password_pannel">تغییر پسورد پنل ردیابی</string>
+    <string name="back_to_setting">بازگشت به تنظیمات اولیه</string>
+    <string name="sound_setting">تنظیمات صدا</string>
+    <string name="login_form">لاگین دستی</string>
+    <string name="updtae">به روز رسانی نرم افزار</string>
+    <string name="add">افزودن</string>
+    <string name="delete">حذف</string>
+    <string name="dialog_download_file">درحال دانلود فایل.به محض اتمام دانلود برنامه نصب خواهد شد!</string>
+    <string name="use_last_version">از آخرین نسخه استفاده می کنید!</string>
+    <string name="error_update_software">خطا در آپدیت نرم افزار</string>
+    <string name="report_device">گزارش دستگاه</string>
+    <string name="charge_sim_card">شارژ سیم کارت</string>
+    <string name="connect_network">ارتباط اینترنت</string>
+    <string name="user_password">نام کاربری و پسورد</string>
+    <string name="Blutooth_Label">بلوتوث</string>
+    <string name="txt_sms">SMS</string>
+    <string name="txt_gprs">GPRS</string>
+    <string name="txt_blu">BLU</string>
+    <string name="txt_bat">BAT</string>
+    <string name="txt_rel">REL</string>
+    <string name="txt_sat">SAT</string>
+    <string name="txt_archive">Archive</string>
+    <string name="txt_ticket">Ticket</string>
+    <string name="txt_title">پسورد ورود به نرم افزار</string>
+    <string name="txt_loginpass">پسورد ورود:</string>
+    <string name="btn_save">ذخیره</string>
+    <string name="btn_delete">حذف پسوردقبلی</string>
+    <string name="btn_cancel">انصراف</string>
+    <string name="dialog_txt">می خوای پسورد نرم افزارت رو حذف کنی؟</string>
+    <string name="btn_login">ورود</string>
+    <string name="txt_opendoor">هشدار باز شدن درب</string>
+    <string name="txt_warning_start">هشدار استارت</string>
+    <string name="txt_warning_Impact_Sensor">هشدار سنسور ضربه</string>
+    <string name="txt_warning_move_Sensor">هشدار سنسور حرکت</string>
+    <string name="txt_warning_Stealing_battery">هشدار سرقت باطری</string>
+    <string name="txt_warning_Unauthorized_speed">هشدار سرعت غیر مجاز</string>
+    <string name="txt_warning_Towing_shift_warning">هشدار جابجایی با یدک کش</string>
+    <string name="txt_active_deactive_notif">نمایش نوتیفیکیشن ها</string>
+    <string name="txt_button_send">ارسال تنظیمات</string>
+    <string name="txt_button_warning">نوع هشدار</string>
+    <string name="sound_buttom">تنظیم صدا دکمه ها</string>
+    <string name="sound_alarm">تنظیم صدا آلارم ها</string>
+    <string name="Current_location">موقعیت فعلی</string>
+    <string name="Last_Location">آخرین موقعیت</string>
+    <string name="Title_ch_panel">تغییر پسورد پنل ردیابی</string>
+    <string name="send_password_panel">ارسال پسورد</string>
+    <string name="show_pass_user">مشاهده پسورد و کد کاربری</string>
+    <string name="Phone_number">شماره تلفن ثابت:</string>
+    <string name="phone_poshtibani">شماره پشتیبانی:</string>
+    <string name="phone_modir">شماره مدیر:</string>
+    <string name="site">سایت:</string>
+    <string name="address">آدرس:</string>
+    <string name="telegram">تلگرام:</string>
+    <string name="instagram">اینستاگرام:</string>
+    <string name="delete_speed">حذف سرعت</string>
+    <string name="setting_speed">تنظیم سرعت</string>
+    <string name="dialog_title">حذف خودرو</string>
+    <string name="dialog_message">می خواهید کل اطلاعات خودرو را پاک کنید؟</string>
+    <string name="txt_caroff">قطع رله</string>
+    <string name="txt_caron">وصل رله</string>
+    <string name="txt_son">روشن کردن خودرو</string>
+    <string name="txt_sof">خاموش کردن خودرو</string>
+    <string name="dialog_no_phonenumber">
+                  برای این ماشین انتخابی شماره تلفنی تعریف نشده است!
+         از طریق تنظیمات/افزودن و حذف خودرو اطلاعات دستگاه را ویرایش کنید!
+     </string>
+    <string name="very_slow">خیلی کند</string>
+    <string name="slow">کند</string>
+    <string name="normal">معمولی</string>
+    <string name="fast">سریع</string>
+    <string name="very_fasrt">خیلی سریع</string>
+    <string name="code_agent">کدنمایندگی:</string>
+    <string name="name_Agent">نماینده:</string>
+    <string name="agent_address">آدرس:</string>
+    <string name="agent_tel">تلفن:</string>
+    <string name="agent_cellphone">موبایل:</string>
+    <string name="agent_location">موقعیت:</string>
+    <string name="agent_city">شهر:</string>
+    <string name="agent_select_city">انتخاب شهر:</string>
+    <string name="instruction_where_description">کجا می خواهید یادآوری شود؟</string>
+    <string name="instruction_where_subtitle_description">نقشه را برای تعیین موقعیت مکانی بکشید</string>
+    <string name="instruction_radius_description">شعاع را انتخاب کنید</string>
+    <string name="instruction_message_description">پیام را وارد کنید</string>
+    <string name="continue_description">ادامه</string>
+    <string name="error_required">ضروری</string>
+    <string name="message_hint">ما رسیدیم! :]</string>
+    <string name="radius_description">%1$s متر</string>
+
+    <string name="reminder_removal_alert">حذف یادآوری؟</string>
+    <string name="reminder_removal_alert_positive">آره</string>
+    <string name="reminder_removal_alert_negative">خیر</string>
+
+    <string name="reminder_added_success">یادآوری اضافه شده است!</string>
+    <string name="reminder_removed_success">حذف یادآوری!</string>
+
+    <string name="marker_content_description">نشانه</string>
+
+    <string name="geofence_unknown_error">
+   خطای ناشناخته: سرویس Geofence در حال حاضر در دسترس نیست.
+  </string>
+    <string name="geofence_not_available">
+    خدمات Geofence در حال حاضر در دسترس نیست. به تنظیمات> موقعیت مکانی> حالت بروید و دقت بالا را انتخاب کنید.
+  </string>
+    <string name="geofence_too_many_geofences">
+    برنامه شما محدوده های زیادی را ثبت کرده است.
+  </string>
+    <string name="geofence_too_many_pending_intents">
+    شما بیش از حد بسیاری از PendingIntents را برای call addGeofences () ارائه کرده اید.
+  </string>
+    <string name="warning_switch_on">سوئیچ روشن</string>
+    <string name="warning_switch_off">سوئیچ خاموش</string>
+    <string name="warning_Ultra_sensor">سنسور حرکت</string>
+    <string name="warning_getShock_sensor">سنسور ضربه</string>
+    <string name="warning_disconnect_battery">قطع باطری</string>
+    <string name="warning_connect_battery">وصل باطری</string>
+    <string name="warning_open_door">درب باز</string>
+    <string name="warning_close_door">درب بسته</string>
+    <string name="warning_Enter">وارد شدن به دیواره</string>
+    <string name="warning_exit">خارج شدن از دیواره</string>
+    <string name="txt_FL">مصرف بهینه</string>
+    <string name="txt_ON">پرمصرف</string>
+    <string name="txt_FF">غیرفعال کردن اینترنت</string>
+    <string name="api_key" translatable="false">"3b96935a-59f5-4e95-8367-bd2a81cb7589"</string>
+    <string name="txt_selectdatetime">انتخابی</string>
+    <string name="desc_informationicon">informationicon</string>
+    <string name="txt_Current_trip">سفر فعلی</string>
+    <string name="txt_Last_trip">سفرآخر</string>
+    <string name="txt_today">امروز</string>
+    <string name="txt_yesterday">دیروز</string>
+    <string name="txt_two_days_ago">دو روز قبل</string>
+    <string name="txt_three_days_ago">سه روز قبل</string>
+    <string name="txt_timestart">زمان شروع:</string>
+    <string name="txt_timeend">زمان پایان:</string>
+    <string name="txt_distance">کیلومتر طی شده:</string>
+
+
+</resources>

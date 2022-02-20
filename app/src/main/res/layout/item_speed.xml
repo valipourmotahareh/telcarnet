@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layoutDirection="rtl"
+       android:background="@color/color_white">
+       <RadioGroup
+               android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+       <RadioButton
+           android:id="@+id/very_slow"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:text="@string/very_slow"
+           android:gravity="center"
+           android:onClick="onRadioButtonClicked"/>
+       <RadioButton
+           android:id="@+id/slow"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:text="@string/slow"
+           android:gravity="center"
+           android:onClick="onRadioButtonClicked"/>
+       <RadioButton
+           android:id="@+id/normal"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:text="@string/normal"
+           android:gravity="center"
+           android:onClick="onRadioButtonClicked"
+           android:checked="true"/>
+       <RadioButton
+           android:id="@+id/fast"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:text="@string/fast"
+           android:gravity="center"
+           android:onClick="onRadioButtonClicked"/>
+       <RadioButton
+           android:id="@+id/very_fasrt"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:text="@string/very_fasrt"
+           android:gravity="center"
+           android:onClick="onRadioButtonClicked"/>
+       </RadioGroup>
+   </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

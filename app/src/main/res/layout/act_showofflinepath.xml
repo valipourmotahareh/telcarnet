@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".activites.ActShowOffLinePath">
+
+    <include
+            android:id="@+id/appbar"
+            layout="@layout/appbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbar"
+            android:layout_weight="1" />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appbar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:alpha="0.4"
+            android:background="@color/color_gray"
+            android:layoutDirection="rtl"
+            android:orientation="vertical">
+
+
+        <TextView
+                android:id="@+id/car_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="نام خودرو"
+                android:textColor="@color/white" />
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/car_date"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="تاریخ"
+                    android:textColor="@color/white" />
+
+            <TextView
+                    android:id="@+id/car_time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="ساعت"
+                    android:textColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/speed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="سرعت"
+                android:textColor="@color/white"
+                android:layout_weight="1"/>
+            <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/txt_distance"
+                    android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/stop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="توقف"
+                android:textColor="@color/white" />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/btns"
+        android:layout_marginBottom="20dp">
+    <SeekBar
+            android:id="@+id/seekbarline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+           />
+</LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/btns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layoutDirection="rtl">
+
+        <ImageView
+                android:id="@+id/front_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/backpath" />
+
+        <ImageView
+                android:id="@+id/move_path"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/playicon" />
+
+        <ImageView
+                android:id="@+id/move_pause"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/stop" />
+
+        <ImageView
+                android:id="@+id/back_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/fronticon" />
+
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/icon_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/imgswitch" />
+
+</RelativeLayout>

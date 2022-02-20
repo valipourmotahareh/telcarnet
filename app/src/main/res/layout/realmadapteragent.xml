@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+           <LinearLayout
+               android:id="@+id/linear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radif"
+                android:text="ردیف"
+                android:textColor="@color/colorDefaultTxt"
+                android:textSize="12sp"
+                android:padding="10dp"
+                android:layout_weight="1.1"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/black" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_Agent"
+                android:text="نماینده"
+                android:textColor="@color/colorDefaultTxt"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/black" />
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/agent_cellphone"
+                   android:text="موبایل"
+                   android:textColor="@color/colorDefaultTxt"
+                   android:textSize="15sp"
+                   android:padding="10dp"
+                   android:layout_weight="0.98"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/black" />
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/agent_address"
+                   android:text="آدرس"
+                   android:textColor="@color/colorDefaultTxt"
+                   android:textSize="15sp"
+                   android:padding="10dp"
+                   android:layout_weight="0.90"/>
+               <View
+                   android:layout_width="1dp"
+                   android:layout_height="fill_parent"
+                   android:background="@color/black" />
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/agent_city"
+                   android:text="شهر"
+                   android:textColor="@color/colorDefaultTxt"
+                   android:textSize="15sp"
+                   android:padding="10dp"
+                   android:layout_weight="1.1"
+                   android:background="@color/white" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/black" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
